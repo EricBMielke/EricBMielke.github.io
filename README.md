@@ -1,3 +1,5 @@
 # EricBMielke.github.io
 
-Project 1-Portfolio
+Personal website
+
+More projects to come soon..
