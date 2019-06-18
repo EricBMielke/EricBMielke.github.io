@@ -1,0 +1,1 @@
+console.log("If you're looking at this, you've made a wise decision to jump onto this page!")

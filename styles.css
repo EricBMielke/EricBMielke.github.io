@@ -1,0 +1,178 @@
+body{  
+    font-family: 'Optima', sans-serif;
+    font-variant: small-caps;
+    font-size:15px;
+    color:black;
+    background-color:rgb(228, 228, 222);
+}
+p{
+    color:black;
+}
+.column {
+    float: left;
+    width: 100%;
+}
+@media only screen and (min-width:600px){
+    .column {
+            float: left;
+            width:49.9%;
+    }
+}
+@media only screen and (min-width:800px){
+    .column {
+            float: left;
+            width:33.3%;
+    }  
+}
+.container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: #ffeead;
+}
+h1 {
+    font-size:50px;
+    color:black;
+}
+h2{
+    color:white;
+}
+h3{
+    color:white;
+}
+h4{
+    color:white;
+}
+h5{
+    color:black;
+}
+.lantern{
+    color:white;
+}
+.navBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 0;
+    overflow: hidden;
+    background-color: #333;
+    width:100%;
+    text-align: center;
+    justify-content: space-around;
+}   
+.navBar ul {
+    justify-content: space-around;
+}
+.navBar li {
+    display:inline-block;
+    width:19.5%;
+    margin:0;
+    padding:0;
+}
+.navBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}    
+.navBar li a:hover {
+    background-color: #111;
+}
+#backdrop {
+    filter: grayscale(100%);
+    position: fixed;
+    z-index: -2;
+    height:100%;
+    width: 100%;
+    left:0px;
+    right:0px;
+}
+#headshot {
+    opacity: .9;
+    filter: grayscale(100%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+#lantern {
+    filter: grayscale(100%);
+    position: fixed;
+    left:0px;
+    top:0px;
+    z-index: -2;
+    height:100%;
+    width: 100%;
+}
+#projects {
+    filter: grayscale(100%);
+    position: fixed;
+    left:0px;
+    top:0px;
+    z-index: -1;
+    height:100%;
+    width: 100%;
+    opacity:.5;
+}
+#phone {
+    filter: grayscale(100%);
+    position: fixed;
+    left:0px;
+    top:0px;
+    z-index: -1;
+    height:100%;
+    width: 100%;
+}
+#roadmap {
+    filter: grayscale(100%);
+    position:fixed;
+    left:0px;
+    top:0px;
+    z-index: -1;
+    height:100%;
+    width: 100%;
+}
+#anvil {
+    filter: grayscale(100%);
+    position: relative;
+    height:225px;
+    width: 95%;
+}
+.travel {
+    filter: grayscale(100%);
+    position: relative;
+    height:200px;
+    width: 60%;
+}
+#anvil:hover {
+    opacity: .5;
+}
+#logo {
+    filter: grayscale(100%);
+    position: fixed;
+    height:6%;
+    width: 4.5%;
+    bottom: 10px;
+    left: 10px;
+    opacity: .7;
+}
+#motorcycle {
+    filter: grayscale(100%);
+    position: relative;
+    height:225px;
+    width: 95%;
+}
+#motorcycle:hover {
+    opacity:.5;
+}
+#colloseum {
+    filter: grayscale(100%);
+    position: relative;
+    height:225px;
+    width: 95%;
+}
+#colloseum:hover {
+    opacity:.5
+}
