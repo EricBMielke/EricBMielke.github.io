@@ -1,0 +1,26 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricBMielke/EricBMielke.github.io.git"
+  },
+  "author": "Eric Mielke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricBMielke/EricBMielke.github.io/issues"
+  },
+  "homepage": "https://github.com/EricBMielke/EricBMielke.github.io#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-strongloop": "^2.1.0"
+  },
+  "dependencies": {
+    "gitlab-runner": "0.0.10"
+  }
+}
