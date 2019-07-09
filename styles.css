@@ -158,13 +158,13 @@ h5{
     left: 10px;
     opacity: .7;
 }
-#motorcycle {
+#rockpaperscissors {
     filter: grayscale(100%);
     position: relative;
     height:225px;
     width: 95%;
 }
-#motorcycle:hover {
+#rockpaperscissors:hover {
     opacity:.5;
 }
 #colloseum {
